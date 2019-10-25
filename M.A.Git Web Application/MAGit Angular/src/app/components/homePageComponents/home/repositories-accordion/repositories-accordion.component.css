@@ -1,0 +1,80 @@
+
+.mat-card{
+    position: relative;
+    margin:auto;
+    width:60%;
+    background-color: rgba(158, 111, 111, 0) !important;
+    height: 85vh;
+}
+
+.right{
+    position: relative;
+    float:right;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.container{
+    margin-bottom: 5px;
+}
+
+.label{
+    font-size:17px !important;
+}
+
+.mat-expansion-panel,.label{
+    font-style: italic;
+}
+
+.mat-expansion-panel{
+    width:95%;
+}
+
+h1{
+    text-align: center;
+    width:95%;
+}
+
+.AddButton{
+    font-size:20px; 
+    font-weight: 20px;
+    background-color:#3F51B5;
+    border:2px solid !important;
+    border-color:white !important;
+    color:white;
+    float:right;
+    margin-right:5%;
+}
+
+.addIcon{
+    font-size:30px;
+    vertical-align:-6px;
+}
+
+.mat-icon{
+    transition: transform 0.8s;
+}
+
+.mat-icon:hover{
+    transform: rotate(180deg);
+    vertical-align: -14px;
+}
+
+.blue{
+    color:#3F51B5;
+}
+
+.accordion{
+    overflow-y: auto;
+    max-height: 80%
+}
+
+.input{
+    min-height:33px;
+    width:40%;
+    vertical-align: middle;
+    border:2px solid #D3D3D3 !important;
+    background: white;
+}

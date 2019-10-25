@@ -1,0 +1,32 @@
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title class="title">
+      <b>PR Message</b>
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+  <div class="container">
+    <mat-label class="label">
+      <b>Repository Name</b>: {{prMessage.repositoryName}}
+    </mat-label>
+  </div>
+  <div class="container">
+    <mat-label class="label">
+      <b>Name</b>: {{prMessage.fromUserName}}
+    </mat-label>
+  </div>
+  <div class="container">
+    <mat-label class="label">
+      <b>PR Message</b>: {{prMessage.message}}
+    </mat-label>
+  </div>
+  <div class="container">
+    <mat-label class="label">
+      <b>Base Branch</b>: {{prMessage.targetBranchName}}
+    </mat-label>
+  </div>
+  <div class="container">
+    <mat-label class="label">
+      <b>Target Branch</b>: {{prMessage.baseBranchName}}
+    </mat-label>
+  </div>
+</mat-expansion-panel>

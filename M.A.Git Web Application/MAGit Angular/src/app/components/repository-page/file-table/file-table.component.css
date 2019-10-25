@@ -1,0 +1,43 @@
+.example-tree-invisible {
+    display: none;
+  }
+  
+  .example-tree ul,
+  .example-tree li {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+  }
+
+ .tree-card,.background{
+    background-color: rgba(100, 100, 100, 0) !important;
+    float:left;
+    margin-top:10px;
+    overflow: auto;
+    max-height: 90vh;
+    margin-left:1%;
+    max-width:30%;
+  }
+  .mat-tree{
+    background-color: rgba(100, 100, 100, 0) !important;
+  }
+.mat-card{
+  overflow: auto;
+}
+  .pre-wrap {
+    white-space: pre-wrap;
+}
+.file-details-card{
+  margin-top:15px !important;
+  width:40%;
+  margin:auto;
+  background-color: #E6EEFB;
+  overflow: auto;
+  max-height: 90vh;
+}
+.content-header{
+  margin-bottom: 5px;
+}
+.file_copy{
+  margin-right:5px;
+}

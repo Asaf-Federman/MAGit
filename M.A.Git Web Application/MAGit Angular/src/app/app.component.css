@@ -1,0 +1,5 @@
+.backgroundimage{
+    background-size: cover;
+    min-height:100%;
+    background-image:url('src\assets\woodbackground.jpeg');
+}

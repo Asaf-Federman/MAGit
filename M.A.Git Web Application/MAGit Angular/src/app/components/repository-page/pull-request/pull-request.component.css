@@ -1,0 +1,22 @@
+.main-div{
+    width:80%;
+    float:left;
+    margin-left:2%;
+    max-height: 90vh;
+}
+
+.message-input{
+    width:100% !important;
+}
+
+.submit-button{
+    width:100%;
+}
+
+h1{
+    text-align: center;
+}
+
+.select{
+    width:30%;
+}

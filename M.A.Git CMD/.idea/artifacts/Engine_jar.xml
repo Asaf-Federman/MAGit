@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="Engine:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Engine_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Engine.jar">
+        <element id="module-output" name="Engine" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/../../../../לימודים/קורסי בחירה/מסגרת קורסי בחירה במדעי המחשב/אינטרנט ושפת ג_אווה/תרגילים/תרגיל מתגלגל בניית גיט/ספריות צד ג/commons-collections4-4.3.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../../../לימודים/קורסי בחירה/מסגרת קורסי בחירה במדעי המחשב/אינטרנט ושפת ג_אווה/תרגילים/תרגיל מתגלגל בניית גיט/ספריות צד ג/commons-codec-1.12.jar" />
+    </root>
+  </artifact>
+</component>

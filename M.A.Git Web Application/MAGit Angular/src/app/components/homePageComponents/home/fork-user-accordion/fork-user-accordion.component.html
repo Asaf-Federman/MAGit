@@ -1,0 +1,42 @@
+<mat-card class="card mat-elevation-z0">
+  <h1>The Repositories of {{clickedUser}}</h1>
+  <div class="accordion">
+    <mat-accordion>
+      <div *ngFor="let repository of repositoryInformation; let i = index">
+        <br *ngIf="i!==0">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title class="title">
+              <mat-label>
+                  <b>Repository Name</b>: {{repository.repositoryName}}
+              </mat-label>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div class="container">
+          <mat-label class="label">
+            <b>Active Branch Name</b>: {{repository.activeBranchName}}
+          </mat-label>
+        </div>
+        <div class="container">
+          <mat-label class="label">
+            <b>Amount Of Branches</b>: {{repository.numberOfBranches}}
+          </mat-label>
+        </div>
+        <div class="container">
+          <mat-label class="label">
+            <b>Last Commit</b>: {{repository.lastCommit}}
+          </mat-label>
+        </div>
+        <div class="container">
+          <mat-label class="label">
+            <b>Last Commit Message</b>: {{repository.lastCommitMessage}}
+          </mat-label>
+        </div>
+          <button mat-stroked-button class="ForkButton" (click)="onFork(repository.repositoryName)">
+            Fork Repositories
+          </button>
+        </mat-expansion-panel>
+      </div>
+    </mat-accordion>
+  </div>
+</mat-card>

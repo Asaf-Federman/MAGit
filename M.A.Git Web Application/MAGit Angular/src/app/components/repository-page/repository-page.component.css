@@ -1,0 +1,22 @@
+.repository-name{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 22px;
+}
+.background{
+    background:none;
+}
+.side-cotainer{
+    min-width: 50px !important;
+    height:100vh !important;
+    background-color: rgba(100, 100, 100, 0.5) !important;
+}
+.mat-sidenav-container{
+    height:93vh !important;
+    overflow: hidden !important;
+}
+
+.container{
+    margin-top:15px;
+}
+

@@ -1,0 +1,19 @@
+.main-div{
+position: absolute; 
+   border: none !important;
+    width: 15%;
+    background-color: rgba(100, 100, 100, 0) ;
+    top:215px;
+    right:1%;
+}
+.content-div{
+    background-color: white;
+    border:2px solid #D3D3D3 !important;
+    box-shadow: 9px 9px 9px -3px rgba(71,68,71,0.61);
+}
+h1{
+    text-align: center;
+}
+.margin-top{
+    margin-top:0px;
+}

@@ -1,0 +1,25 @@
+.card{
+    border: none !important;
+    width: 15%;
+    margin:auto;
+    float:right;
+    margin-right:1%;
+    margin-top:15px;
+    background-color: rgba(100, 100, 100, 0) ;
+}
+.mat-card{
+    background-color: white;
+    border:2px solid #D3D3D3 !important;
+    box-shadow: 9px 9px 9px -3px rgba(71,68,71,0.61);
+}
+h1{
+    text-align: center;
+}
+.messageAmountStyle{
+    font-size: 20px;
+}
+button{
+    float:right;
+    border:1px solid #D3D3D3;
+    margin-top:1vh;
+}

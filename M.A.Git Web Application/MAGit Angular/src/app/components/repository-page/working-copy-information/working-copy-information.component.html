@@ -1,0 +1,80 @@
+<mat-card class="new-file-card mat-elevation-z0">
+  <button mat-fab color="primary" (click)="newFileClick()">+</button>
+</mat-card>
+<mat-tree *ngIf="workingCopyInformation!==null" [dataSource]="dataSource" [treeControl]="treeControl"
+  class="example-tree background">
+  <!-- This is the tree node template for leaf nodes -->
+  <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle>
+    <li class="mat-tree-node">
+      <!-- use a disabled button to provide padding for tree leaf -->
+      <button mat-raised-button color="primary" class="leaf-button" (click)="printContent(node)">
+        {{node?.fileName}}
+      </button>
+    </li>
+  </mat-tree-node>
+  <!-- This is the tree node template for expandable nodes -->
+  <mat-nested-tree-node *matTreeNodeDef="let node; when: hasChild">
+    <li>
+      <div class="mat-tree-node">
+        <button mat-raised-button color="warn" (click)="clickFolder()" matTreeNodeToggle
+          [attr.aria-label]="'toggle ' + node.name">
+          <mat-icon>{{treeControl.isExpanded(node)? 'folder_open' : 'folder'}}</mat-icon>
+          <mat-icon class="mat-icon-rtl-mirror">
+            {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
+          </mat-icon>
+          {{node?.fileName}}
+        </button>
+      </div>
+      <ul [class.example-tree-invisible]="!treeControl.isExpanded(node)">
+        <ng-container matTreeNodeOutlet></ng-container>
+      </ul>
+    </li>
+  </mat-nested-tree-node>
+</mat-tree>
+<mat-card class="file-details-card" *ngIf="clickedNode">
+  <h1>{{clickedNode.fileName}}</h1>
+  <h3 class="content-header">Content: </h3>
+  <textarea cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMaxRows="30"
+    class="max-width pre-wrap margin-bottom" placeholder="Content" #contentTextArea [value]="clickedNode.content">
+</textarea>
+  <button mat-raised-button class="right button" color="primary" (click)="saveChanges()">Save Changes</button>
+  <button mat-raised-button color="warn" (click)="removeFile()">Remove</button>
+</mat-card>
+<mat-card class="file-details-card" *ngIf="clickedNewFile">
+  <h1>File Creation</h1>
+  <form [formGroup]="form" (submit)="onSubmitNewFile()">
+    <mat-card-content>
+      <mat-form-field class="max-width">
+        <input matInput placeholder="File Name *" formControlName="fileName">
+        <mat-error *ngIf="form.get('fileName').errors?.required">
+          Please enter a file name
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>File Extension *</mat-label>
+        <mat-select formControlName="extension" [(value)]="extensionChoice">
+          <mat-option *ngFor="let extensionOption of extensionArray" [value]="extensionOption">
+            {{extensionOption}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class="max-width">
+        <input type="url" matInput type="text" placeholder="Relative Folder Path *" formControlName="route">
+        <mat-error *ngIf="form.get('route').errors?.required">
+          Please enter a route
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field class="max-width">
+        <textarea matInput cdkTextareaAutosize #autosize="cdkTextareaAutosize" cdkAutosizeMaxRows="30"
+          formControlName="newFileContent" placeholder="Content">
+      </textarea>
+      </mat-form-field>
+    </mat-card-content>
+    <mat-card-actions>
+      <div>
+        <button type="submit" mat-raised-button [disabled]="!form.valid" color="primary" class="max-width">Create
+          New File</button>
+      </div>
+    </mat-card-actions>
+  </form>
+</mat-card>

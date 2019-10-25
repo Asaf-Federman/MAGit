@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Engine:jar" />
+      <artifact name="UI:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f2233fc-e917-4e0d-ad9a-3ecd70be5926" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/NodeInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/NodeInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/RepositoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/RepositoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/XMLFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/XMLFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/utilz.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Utilz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/src/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Engine_jar/Engine.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Engine_jar/Engine.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/UI_jar/UI.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UI_jar/UI.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engine/RepositoryManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engine/RepositoryManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engine/XMLFetcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engine/XMLFetcher.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="M.A.Git" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1OXtJyn7g7ra3ClJxUkiTbxNTZm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - The Academic College of Tel-Aviv Jaffa - MTA\rep\Java &amp; Javascript\Java\M.A.Git\Engine\src\XML_Schema" />
+      <recent name="E:\OneDrive - The Academic College of Tel-Aviv Jaffa - MTA\rep\Java &amp; Javascript\Java\M.A.Git\Engine\src\XML_Classes" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="&#9;public Map&lt;String, Node&gt; getM_Files() &#9;{ &#9;&#9;return m_Files; &#9;} &#9; &#9;public void setFiles(Map&lt;String, Node&gt; m_Files) &#9;{ &#9;&#9;this.m_Files = m_Files; &#9;} &#9; &#9;public Map&lt;String, Commit&gt; getCommits() &#9;{ &#9;&#9;return m_Commits; &#9;} &#9; &#9;public void setCommits(Map&lt;String, Commit&gt; m_Commits) &#9;{ &#9;&#9;this.m_Commits = m_Commits; &#9;} &#9; &#9;public Head getMeadBranch() &#9;{ &#9;&#9;return m_HeadBranch; &#9;} &#9; &#9;public void setHeadBranch(Head m_HeadBranch) &#9;{ &#9;&#9;this.m_HeadBranch = m_HeadBranch; &#9;} &#9; &#9;public Map&lt;String, Branch&gt; getBranches() &#9;{ &#9;&#9;return m_Branches; &#9;} &#9; &#9;public void setBranches(Map&lt;String, Branch&gt; m_Branches) &#9;{ &#9;&#9;this.m_Branches = m_Branches; &#9;}" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="UI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f2233fc-e917-4e0d-ad9a-3ecd70be5926" name="Default Changelist" comment="" />
+      <created>1563995712854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563995712854</updated>
+      <workItem from="1563995716397" duration="33374000" />
+      <workItem from="1564135709660" duration="2149000" />
+      <workItem from="1564141201790" duration="159000" />
+      <workItem from="1564141585597" duration="29567000" />
+      <workItem from="1564249438802" duration="18000" />
+      <workItem from="1564250157014" duration="7832000" />
+      <workItem from="1564265762428" duration="102000" />
+      <workItem from="1564265878194" duration="15069000" />
+      <workItem from="1564414370251" duration="9596000" />
+      <workItem from="1564425972363" duration="1213000" />
+      <workItem from="1564427254426" duration="68000" />
+      <workItem from="1564427452886" duration="123000" />
+      <workItem from="1564427722029" duration="42931000" />
+      <workItem from="1564583988106" duration="23139000" />
+      <workItem from="1564616538286" duration="2821000" />
+      <workItem from="1564619487110" duration="534000" />
+      <workItem from="1564620081391" duration="11863000" />
+      <workItem from="1564675288847" duration="7104000" />
+      <workItem from="1564684730837" duration="4179000" />
+      <workItem from="1564766093234" duration="22691000" />
+      <workItem from="1564823491446" duration="712000" />
+      <workItem from="1564828250699" duration="8738000" />
+      <workItem from="1564865610682" duration="228000" />
+      <workItem from="1564871601866" duration="24926000" />
+      <workItem from="1565203620238" duration="1318000" />
+      <workItem from="1565345465987" duration="11825000" />
+      <workItem from="1565632361614" duration="1987000" />
+      <workItem from="1565864604378" duration="1699000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

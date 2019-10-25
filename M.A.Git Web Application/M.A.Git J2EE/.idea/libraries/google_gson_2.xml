@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="google-gson-2">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/artifacts/google-gson-2.1" />
+      <root url="file://$PROJECT_DIR$/artifacts/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/artifacts/google-gson-2.1" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/artifacts/google-gson-2.1" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/artifacts/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/artifacts/google-gson-2.1" recursive="false" type="SOURCES" />
+  </library>
+</component>

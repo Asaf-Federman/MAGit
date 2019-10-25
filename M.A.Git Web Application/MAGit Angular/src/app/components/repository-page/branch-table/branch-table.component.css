@@ -1,0 +1,67 @@
+.branch-table{
+   width:80%;
+   float:left;
+   margin-left:2%;
+}
+.mat-column-select{
+    width:50px;
+    border-right:1px solid #e0e0e0;
+    border-left:1px solid #e0e0e0;
+    padding:5px !important;
+}
+.mat-column-id{
+    text-align: center;
+    border-right:1px solid #e0e0e0;;
+}
+.mat-column-branchName{
+    text-align: center;
+    border-right:1px solid #e0e0e0;;
+}
+.mat-column-commitKey{
+    text-align: center;
+    border-right:1px solid #e0e0e0;;
+}
+.mat-column-commitMessage{
+    text-align: center;
+    border-right:1px solid #e0e0e0;;
+}
+.mat-column-isHead{
+    text-align: center;
+    border-right:1px solid #e0e0e0;
+    padding-right:0px !important;
+}
+table{
+    width:100%;
+}
+.right-float{
+    float: right;
+}
+h1{
+    text-align: center;
+}
+.mat-input{
+    width:20%;
+    height:35px;
+    margin-left: 0px;
+    float:left;
+    border:none;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.mat-input:focus{
+    outline: none;
+}
+
+.float-right{
+float: right;
+}
+.container{
+    overflow:hidden;
+}
+.scroll{
+    overflow: auto;
+}
+
+.float-left{
+    float: left;
+}

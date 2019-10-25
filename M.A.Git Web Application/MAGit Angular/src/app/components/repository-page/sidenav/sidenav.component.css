@@ -1,0 +1,17 @@
+button{
+    font-size:20px;
+    border:none;
+    width:100%;
+    text-align: left;
+    margin-bottom: 2vh;
+    border: 2px solid rgba(100, 100, 100, 0);
+}
+
+.notActive{
+    background-color: rgba(100, 100, 100, 0) !important;
+    box-shadow: none;
+}
+
+.active{
+    border:2px solid #D3D3D3 !important;
+}

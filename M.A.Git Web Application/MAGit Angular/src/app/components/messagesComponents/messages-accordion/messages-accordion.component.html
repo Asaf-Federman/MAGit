@@ -1,0 +1,15 @@
+<mat-card class="card mat-elevation-z0">
+  <h1>Messages</h1>
+  <br>
+  <div class="accordion">
+    <mat-accordion>
+      <div *ngFor="let message of messages; let i = index">
+        <br *ngIf="i!==0">
+        <app-fork-message *ngIf="isFork(message)" [forkMessage]="message"></app-fork-message>
+        <app-prmessage *ngIf="isPRMessage(message)" [prMessage]="message"></app-prmessage>
+        <app-prstatuses *ngIf="isPRStatus(message)" [prStatus]="message"></app-prstatuses>
+        <app-delete-message *ngIf="isDeletedMessage(message)" [deletedMessage]="message"></app-delete-message>
+      </div>
+    </mat-accordion>
+  </div>
+</mat-card>

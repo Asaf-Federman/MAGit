@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d412b87-67a9-4c68-bc33-64cacc51f8c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JavaFX/src/Components/CloneComponent/CloneFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFX/src/Components/CloneComponent/CloneFXML.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFX/src/Components/NewRepositoryComponent/NewRepositoryFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFX/src/Components/NewRepositoryComponent/NewRepositoryFXML.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engine/META-INF/Engine.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFX/META-INF/JavaFX.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Magit Ex03/MAGit-Ex03" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Magit Ex03/MAGit-Ex03" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\OneDrive - The Academic College of Tel-Aviv Jaffa - MTA\rep\Java &amp; Javascript\Java\M.A.Git\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PfOCrSct7UKcro1ABIcnUKrhgw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fetcher" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - The Academic College of Tel-Aviv Jaffa - MTA\rep\Java &amp; Javascript\Java\M.A.Git Ex02\JavaFX\src\Components\ConflictComponent" />
+      <recent name="E:\OneDrive - The Academic College of Tel-Aviv Jaffa - MTA\rep\Java &amp; Javascript\Java\M.A.Git\Engine" />
+      <recent name="E:\OneDrive - The Academic College of Tel-Aviv Jaffa - MTA\rep\Java &amp; Javascript\Java\M.A.Git\JavaFX" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - The Academic College of Tel-Aviv Jaffa - MTA\rep\Java &amp; Javascript\Java\M.A.Git Ex02\JavaFX\src\Components\CloneComponent" />
+      <recent name="E:\OneDrive - The Academic College of Tel-Aviv Jaffa - MTA\rep\Java &amp; Javascript\Java\M.A.Git Ex02\JavaFX\src\Components\ConflictComponent\SingleConflictComponent" />
+      <recent name="E:\OneDrive - The Academic College of Tel-Aviv Jaffa - MTA\rep\Java &amp; Javascript\Java\M.A.Git Ex02\JavaFX\src\Components\TreeNodeComponent" />
+      <recent name="E:\OneDrive - The Academic College of Tel-Aviv Jaffa - MTA\rep\Java &amp; Javascript\Java\M.A.Git Ex02\JavaFX\src\Components\AppWindowComponent\Layout" />
+      <recent name="E:\OneDrive - The Academic College of Tel-Aviv Jaffa - MTA\rep\Java &amp; Javascript\Java\M.A.Git Ex02\JavaFX\src\Components\AppWindowComponent" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="JavaFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d412b87-67a9-4c68-bc33-64cacc51f8c6" name="Default Changelist" comment="" />
+      <created>1566261559158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566261559158</updated>
+      <workItem from="1566261562487" duration="589000" />
+      <workItem from="1566262246018" duration="52000" />
+      <workItem from="1566262361933" duration="3136000" />
+      <workItem from="1566292674849" duration="48664000" />
+      <workItem from="1566388437896" duration="23339000" />
+      <workItem from="1566413006068" duration="19132000" />
+      <workItem from="1566505570110" duration="1053000" />
+      <workItem from="1566506640757" duration="1362000" />
+      <workItem from="1566508992422" duration="19300000" />
+      <workItem from="1566772569771" duration="15519000" />
+      <workItem from="1567183481758" duration="17419000" />
+      <workItem from="1567287270390" duration="58089000" />
+      <workItem from="1567698461751" duration="5295000" />
+      <workItem from="1567757076748" duration="118000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,79 @@
+.commit-table{
+   width:80%;
+   float:left;
+   margin-left:2%;
+   max-height: 90vh;
+}
+.mat-column-select{
+    width:50px;
+    border-right:1px solid #e0e0e0;
+    border-left:1px solid #e0e0e0;
+    padding:5px !important;
+}
+.mat-column-id{
+    text-align: center;
+    border-right:1px solid #e0e0e0;;
+}
+.mat-column-encryptionKey{
+    text-align: center;
+    border-right:1px solid #e0e0e0;;
+}
+.mat-column-message{
+    text-align: center;
+    border-right:1px solid #e0e0e0;;
+}
+.mat-column-creationDate{
+    text-align: center;
+    border-right:1px solid #e0e0e0;;
+}
+.mat-column-author{
+    text-align: center;
+    border-right:1px solid #e0e0e0;;
+}
+
+.mat-column-relatedBranches{
+    text-align: center;
+    border-right:1px solid #e0e0e0;
+    padding-right:0px !important;
+}
+table{
+    width:100%;
+}
+.backgroundColor{
+    background-color: white !important;
+    height:80px;
+}
+.right-float{
+    float: right;
+}
+h1{
+    text-align: center;
+}
+.mat-input{
+    height:30px;
+    margin-left: 0px;
+    float:left;
+    border:none;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.mat-input:focus{
+    outline: none;
+}
+
+button{
+float: right;
+}
+.container{
+    /* clear: both; */
+    overflow:hidden;
+}
+.scroll{
+    overflow: auto;
+}
+.mat-list-item{
+    height:20px !important;
+}
+.chip{
+    margin:auto;
+}

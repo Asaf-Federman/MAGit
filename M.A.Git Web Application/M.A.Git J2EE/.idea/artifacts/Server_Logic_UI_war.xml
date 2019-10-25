@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Server_Logic_UI:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/Server_Logic_UI_war</output-path>
+    <root id="archive" name="Server_Logic_UI_war.war">
+      <element id="artifact" artifact-name="Server_Logic_UI:war exploded" />
+    </root>
+  </artifact>
+</component>

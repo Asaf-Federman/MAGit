@@ -1,0 +1,16 @@
+<div class="card">
+  <h1>Messages</h1>
+  <mat-card>
+    <p>You have
+      <br>
+      <b class="messageAmountStyle">{{messagesAmount}}</b>
+      <br>
+      new messages.
+    </p>
+  </mat-card>
+  <div *ngIf="messagesAmount!==0">
+    <button mat-raised-button color="warn" routerLink="/messages">
+      See Messages
+    </button>
+  </div>
+</div>

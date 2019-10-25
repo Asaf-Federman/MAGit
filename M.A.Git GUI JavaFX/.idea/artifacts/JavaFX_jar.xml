@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaFX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaFX_jar</output-path>
+    <root id="archive" name="JavaFX.jar">
+      <element id="module-output" name="JavaFX" />
+      <element id="module-output" name="Engine" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/artifacts/commons-collections4-4.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/artifacts/AncestorFinder.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/artifacts/commons-io-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/artifacts/commons-codec-1.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/artifacts/fxgraph-0.0.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

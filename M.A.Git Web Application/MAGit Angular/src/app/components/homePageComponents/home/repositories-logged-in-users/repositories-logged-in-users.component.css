@@ -1,0 +1,46 @@
+.viewport {
+    height: 30vh;
+    padding:0;
+  }
+  .viewport-item {
+    height: 50px;
+    transition: transform 0.8s;
+  }
+
+  .viewport-item:hover{
+      transform:translate(0px,4px);
+      border:1px;
+  }
+  button{
+      border:1px;
+      position: relative;
+      width:90%;
+      background-color: white;
+      border:2px solid #D3D3D3 !important;
+  }
+  .card{
+      width: 15%;
+      margin:auto;
+      float:left;
+      margin-left:1%;
+      background-color: rgba(100, 100, 100, 0) !important;
+  }
+  h1{
+      text-align: center;
+      width:90%;
+  }
+  .position_transition{
+      text-align: left;
+      transition:0.8s;
+  }
+  .mat-icon{
+      vertical-align: middle;
+  }
+  .user-button{
+      color:#3F51B5;
+  }
+  .clicked-button{
+      color:red;
+  }
+
+

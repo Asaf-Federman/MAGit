@@ -1,0 +1,46 @@
+
+.mat-card{
+    position: relative;
+    margin:auto;
+    width:60%;
+    background-color: rgba(158, 111, 111, 0) !important;
+    height: 85vh;
+}
+
+.right{
+    position: relative;
+    float:right;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.container{
+    margin-bottom: 5px;
+}
+
+.label{
+    font-size:17px !important;
+}
+
+.mat-expansion-panel,.label{
+    font-style: italic;
+}
+.mat-expansion-panel{
+    border:2px solid #D3D3D3 !important;
+    transition: transform 0.8s;
+    width:95%;
+}
+h1{
+    text-align: center;
+    width:95%;
+}
+.ForkButton{
+    color:#3F51B5;
+    float:right;
+}
+.accordion{
+    overflow-y: auto;
+    max-height: 80%
+}

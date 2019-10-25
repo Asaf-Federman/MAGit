@@ -1,0 +1,10 @@
+.mat-card{
+    width:90%;
+    overflow:auto;
+    margin:auto;
+    max-height: 90vh;
+    margin-top:15px;
+}
+h1{
+    text-align: center;
+}

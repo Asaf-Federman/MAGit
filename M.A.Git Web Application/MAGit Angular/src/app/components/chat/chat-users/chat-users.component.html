@@ -1,0 +1,12 @@
+<mat-card class="main-card mat-elevation-z0">
+  <h1>Logged In Users</h1>
+  <mat-card class="user-card">
+    <mat-list *ngFor="let user of userCollection; let i=index">
+      <mat-card class="list-card">
+        <mat-list-item [ngClass]="{'user-button':user===userName}">
+          <mat-icon>account_circle</mat-icon>{{user}}
+        </mat-list-item>
+      </mat-card>
+    </mat-list>
+  </mat-card>
+</mat-card>

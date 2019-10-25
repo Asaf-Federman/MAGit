@@ -1,0 +1,35 @@
+<div class="main-div">
+  <mat-card>
+    <form [formGroup]="form" (submit)="submit()">
+      <h1>Pull Request</h1>
+      <mat-card-content>
+        <mat-form-field class="select">
+          <mat-label>Target Branch</mat-label>
+          <mat-select formControlName="targetBranch">
+            <mat-option *ngFor="let targetBranch of branchesNames?.targetBranchesNames" [value]="targetBranch">
+              {{targetBranch}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <br>
+        <mat-form-field class="select">
+          <mat-label>Base Branch</mat-label>
+          <mat-select formControlName="baseBranch">
+            <mat-option *ngFor="let baseBranch of branchesNames?.baseBranchesNames" [value]="baseBranch">
+              {{baseBranch}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <br>
+        <mat-form-field class="message-input">
+          <input formControlName="message" matInput placeholder="Message">
+        </mat-form-field>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="primary" [disabled]="form.invalid" class="submit-button" type="submit">
+          Submit Pull Request
+        </button>
+      </mat-card-actions>
+    </form>
+  </mat-card>
+</div>

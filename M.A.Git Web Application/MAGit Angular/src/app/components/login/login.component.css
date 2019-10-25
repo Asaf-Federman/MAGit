@@ -1,0 +1,14 @@
+.position{
+    position: relative;
+    margin:auto;
+    width:60%;
+    margin-top:10px;
+}
+.mat-form-field{
+    width:80%;
+}
+
+.right{
+    position: relative;
+    float:right;
+}

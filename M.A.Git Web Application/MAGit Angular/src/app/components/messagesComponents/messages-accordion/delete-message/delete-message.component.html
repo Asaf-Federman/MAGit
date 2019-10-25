@@ -1,0 +1,27 @@
+<mat-expansion-panel>
+    <mat-expansion-panel-header>
+        <mat-panel-title class="title">
+            <b>Deleted Branch Message</b>
+        </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div class="container">
+        <mat-label class="label">
+            <b>Repository Name</b>: {{deletedMessage.repositoryName}}
+        </mat-label>
+    </div>
+    <div class="container">
+        <mat-label class="label">
+            <b>Deleted Branch Name</b>: {{deletedMessage.deletedBranchName}}
+        </mat-label>
+    </div>
+    <div class="container">
+        <mat-label class="label">
+            <b>Time of Delete</b>: {{deletedMessage.deletedDate}}
+        </mat-label>
+    </div>
+    <div class="container">
+        <mat-label class="label">
+            <b>Deleted By</b>: {{deletedMessage.deletedByUser}}
+        </mat-label>
+    </div>
+</mat-expansion-panel>

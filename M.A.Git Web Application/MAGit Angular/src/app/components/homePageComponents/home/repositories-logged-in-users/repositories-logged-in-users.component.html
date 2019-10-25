@@ -1,0 +1,15 @@
+<mat-card class="card mat-elevation-z0">
+  <h1>Active Members</h1>
+  <div #scrollContainer class="container">
+    <cdk-virtual-scroll-viewport itemSize="50" class="viewport">
+      <div *ngFor="let item of LoggedInSet;let i=index" class="viewport-item">
+        <button mat-stroked-button (click)="onClick(i)"
+          [ngClass]="{'user-button':item===LoggedInUserName,'clicked-button':i===clickedUserIndex}">
+          <div class="position_transition">
+            <mat-icon>account_circle</mat-icon>{{item}}
+          </div>
+        </button>
+      </div>
+    </cdk-virtual-scroll-viewport>
+  </div>
+</mat-card>

@@ -1,0 +1,33 @@
+<div class="sidebar">
+    <button mat-raised-button color="warn" (click)="BranchFlag()"
+        [ngClass]="{'notActive':!clickBranchPage,'active':clickBranchPage}" [routerLink]="['branches']">
+        Branches
+    </button>
+    <br>
+    <button mat-raised-button color="warn" (click)="CommitsFlag()"
+        [ngClass]="{'notActive':!clickCommitsPage,'active':clickCommitsPage}"
+        [routerLink]="['branch',branchName,'commits']">
+        Commits
+    </button>
+    <br>
+    <button mat-raised-button color="warn" (click)="WorkingCopyFlag()"
+        [ngClass]="{'notActive':!clickWorkingCopyPage,'active':clickWorkingCopyPage}" [routerLink]="['workingCopy']">
+        Working Copy
+    </button>
+    <br>
+    <button mat-raised-button color="warn" (click)="CommitFlag()"
+        [ngClass]="{'notActive':!clickCommitPage,'active':clickCommitPage}" [routerLink]="['commit']">
+        Commit
+    </button>
+    <br>
+    <button mat-raised-button color="warn" (click)="PRStatusFlag()"
+        [ngClass]="{'notActive':!clickPRStatusPage,'active':clickPRStatusPage}"
+        [routerLink]="['pull-request-status-information']">PR Status</button>
+    <div *ngIf="isRemote">
+        <button mat-raised-button color="warn" (click)="PullRequestFlag()"
+            [ngClass]="{'notActive':!clickPullRequestPage,'active':clickPullRequestPage}"
+            [routerLink]="['pull-request']">
+            Pull Request
+        </button>
+    </div>
+</div>

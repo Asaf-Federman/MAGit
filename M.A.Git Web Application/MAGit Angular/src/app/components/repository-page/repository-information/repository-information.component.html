@@ -1,0 +1,16 @@
+<div class="main-div">
+  <h1>Information</h1>
+  <mat-card *ngIf="repositoryInformation!==null" class="content-div">
+    <p class="margin-top"><b>Repository Name:</b>
+      <br>
+      {{repositoryInformation.repositoryName}}</p>
+      <div *ngIf="repositoryInformation.remoteRepositoryName!==undefined">
+      <p><b>Remote Repository Name:</b>
+      <br>
+      {{repositoryInformation.remoteRepositoryName}}</p>
+     <p><b>Remote Repository User Name:</b>
+      <br>
+      {{repositoryInformation.remoteRepositoryUserName}}</p>
+    </div>
+  </mat-card>
+</div>

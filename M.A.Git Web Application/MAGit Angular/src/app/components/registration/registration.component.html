@@ -1,0 +1,32 @@
+<mat-card class="position">
+  <img src="assets\man.png">
+  <h1>Login</h1>
+  <form [formGroup]="form" (submit)="onSubmit()">
+    <mat-card-content>
+      <mat-form-field>
+        <input matInput placeholder="User Name *" formControlName="nickName">
+        <mat-error *ngIf="form.get('nickName').errors?.minlength">Please enter a nick name with atleast 4 characters
+        </mat-error>
+        <mat-error *ngIf="form.get('nickName').errors?.required">Please enter a nick name</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="password" placeholder="Password *" formControlName="password">
+        <mat-error *ngIf="form.get('password').errors?.required">Please enter a password</mat-error>
+        <mat-error *ngIf="form.get('password').errors?.minlength">Please enter a password with atleast 4 characters
+        </mat-error>
+      </mat-form-field>
+      <br>
+      <br>
+      <div *ngIf="error">
+        <mat-error>{{error}}</mat-error>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <div>
+        <button type="submit" mat-stroked-button [disabled]="!form.valid" color="primary" class="submitButton">Sign
+          In</button>
+      </div>
+    </mat-card-actions>
+  </form>
+</mat-card>
+

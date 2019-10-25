@@ -1,0 +1,81 @@
+<div class="branch-table ">
+  <mat-card class="scroll  mat-elevation-z8">
+    <h1>'{{repositoryName}}' Branches Table</h1>
+    <br>
+    <table mat-table [dataSource]="dataSource">
+
+      <ng-container matColumnDef="select" class="checkBox-width">
+        <th mat-header-cell *matHeaderCellDef>
+          CheckBox
+        </th>
+        <td mat-cell *matCellDef="let row">
+          <mat-checkbox (click)="$event.stopPropagation()" (change)="$event ? selection.toggle(row) : null"
+            [checked]="selection.isSelected(row)">
+          </mat-checkbox>
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef> No. </th>
+        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="branchName">
+        <th mat-header-cell *matHeaderCellDef> Branch Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.branchName}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="commitKey">
+        <th mat-header-cell *matHeaderCellDef> Commit Key </th>
+        <td mat-cell *matCellDef="let element"> {{element.commitKey}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="commitMessage">
+        <th mat-header-cell *matHeaderCellDef> Commit Message </th>
+        <td mat-cell *matCellDef="let element"> {{element.commitMessage}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="isHead">
+        <th mat-header-cell *matHeaderCellDef> Head </th>
+        <td mat-cell *matCellDef="let element"> {{element.isHead}} </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="selection.toggle(row)">
+      </tr>
+
+    </table>
+    <mat-paginator [pageSizeOptions]="[5]" showFirstLastButtons></mat-paginator>
+    <div>
+      <div class="container">
+        <button mat-stroked-button [disabled]="isNewHeadDisable()" (click)="newHead()" class="float-right">Change To
+          Head
+        </button>
+      </div>
+      <hr>
+      <div class="container">
+        <button mat-stroked-button [disabled]="isDeleteBranchDisable()" class="float-right" (click)="deleteBranch()"
+          color="warn">
+          Delete Branch
+        </button>
+      </div>
+      <div *ngIf="isRemote">
+        <hr>
+        <div class="container">
+          <button mat-stroked-button (click)="push()" class="float-left" color="primary">
+            Push
+          </button>
+          <button mat-stroked-button (click)="pull()" class="float-right" color="primary">
+            Pull
+          </button>
+        </div>
+      </div>
+      <hr>
+      <div class="cotainer">
+        <input matInput type="text" class="mat-input" [(ngModel)]="newBranchName" placeholder="New Branch Name">
+        <button mat-stroked-button class="new-branch-button" class="float-right" color="primary"
+          [disabled]="isNewBranchDisable()" (click)="newBranch()">Create New
+          Branch</button>
+      </div>
+    </div>
+  </mat-card>
+</div>

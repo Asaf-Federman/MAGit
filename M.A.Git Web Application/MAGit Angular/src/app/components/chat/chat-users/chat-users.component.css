@@ -1,0 +1,23 @@
+.main-card{
+    float:left;
+    max-height: 80vh;
+    width:15%;
+    margin-left:1%;
+    background-color: rgba(158, 111, 111, 0) !important;
+}
+h1{
+    text-align: center;
+}
+
+.user-card{
+    border:2px solid #D3D3D3 !important;
+    overflow: auto;
+    background-color: 	#F5F5F5	;
+}
+
+.mat-icon{
+    vertical-align: middle;
+}
+.user-button{
+    color:#3F51B5;
+}

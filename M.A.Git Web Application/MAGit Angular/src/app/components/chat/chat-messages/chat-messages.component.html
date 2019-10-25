@@ -1,0 +1,31 @@
+<mat-card id="main-card">
+  <form (ngSubmit)="onSubmit(form)" #form="ngForm">
+    <h1>M.A.Git Chat Room</h1>
+    <br>
+    <mat-card id="messages-card">
+      <div #scrollMe id="scroll-id">
+        <div *ngFor="let chatMessage of chatMessages">
+          <div class="container">
+            <mat-card class="message-card"
+              [ngClass]="{'float-right':!isUser(chatMessage),'admin-card':isAdmin(chatMessage)}">
+              <b>{{chatMessage.userName}}</b>
+              <br>
+              <br>
+              {{chatMessage.messageContent}}
+              <br>
+              <br>
+              <div class="text-right">
+                {{chatMessage.date}}
+              </div>
+            </mat-card>
+          </div>
+        </div>
+      </div>
+    </mat-card>
+    <input matInput type="text" name="message" class="mat-input" placeholder="Message" required ngModel>
+    <button mat-raised-button type="submit" id="submit-message-button"
+    color="primary" [disabled]="!form.valid">
+      <mat-icon>arrow_forward</mat-icon>
+    </button>
+  </form>
+</mat-card>

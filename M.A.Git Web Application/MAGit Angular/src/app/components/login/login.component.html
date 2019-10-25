@@ -1,0 +1,23 @@
+<form [formGroup]="form" (submit)="onSubmit()">
+  <mat-card class="position">
+    <h1>Login</h1>
+    <mat-card-content>
+      <mat-form-field>
+        <input matInput placeholder="Nick Name" formControlName="nickName">
+        <mat-error *ngIf="form.get('nickName').errors?.validNickName">Please enter a valid nick name</mat-error>
+        <mat-error *ngIf="form.get('nickName').errors?.required">Please enter a nick name</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="password" placeholder="Password" formControlName="password">
+        <mat-error *ngIf="form.get('password').errors?.required">Please enter a valid password</mat-error>
+        <mat-error *ngIf="form.get('password').errors?.validPassword">Please enter a valid password</mat-error>
+      </mat-form-field>
+      <br>
+    </mat-card-content>
+    <mat-card-actions>
+      <div align="end">
+        <button type="submit" mat-stroked-button [disabled]="!form.valid" color="primary">Sign In</button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+</form>

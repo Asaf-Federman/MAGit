@@ -1,0 +1,72 @@
+.example-tree-invisible {
+    display: none;
+}
+
+.example-tree ul,
+.example-tree li {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.background {
+    background-color: rgba(100, 100, 100, 0) !important;
+}
+
+.mat-tree {
+    float: left;
+    overflow: auto;
+    max-height: 90vh;
+    background-color: rgba(100, 100, 100, 0) !important;
+    max-width: 30%;
+}
+
+.pre-wrap {
+    white-space: pre-wrap;
+}
+
+.file-details-card {
+    max-width: 40%;
+    margin: auto;
+    background-color: #E6EEFB;
+    overflow: auto;
+    max-height: 90vh;
+}
+
+.file_copy {
+    margin-right: 5px;
+}
+
+.updateFile {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.right {
+    float: right;
+    display: block;
+    margin-right: -6px;
+    clear: left;
+}
+
+.button {
+    background-color: #3F51B5;
+}
+
+.new-file-card {
+    float: left;
+    background-color: rgba(100, 100, 100, 0) !important;
+    margin-top:-20px;
+}
+
+.mat-fab {
+    font-size: 30px;
+}
+
+.max-width {
+    width: 100% !important;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}

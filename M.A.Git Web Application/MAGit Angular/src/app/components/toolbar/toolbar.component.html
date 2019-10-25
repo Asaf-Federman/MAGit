@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row *ngIf="userName !==null ">
+    <button mat-button class="home-icon" routerLink="home">
+      <mat-icon>home</mat-icon>
+      <a class="font space">Home</a>
+    </button>
+    <button mat-button routerLink="chat">
+      <mat-icon>chat</mat-icon>
+      <a class="font space">Chat</a>
+    </button>
+    <div class="right">
+      <button class="font" mat-button (click)="onLogout()"> Logout </button>
+      <mat-icon class="font" inline="true" class="accountIcon">account_box</mat-icon><label class="font"
+        class="user">{{userName}}</label>
+    </div>
+  </mat-toolbar-row>
+  <mat-toolbar-row *ngIf="userName===null">
+    <div class="right">
+      <a class="font" mat-button routerLink="registration"> Sign </a>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
