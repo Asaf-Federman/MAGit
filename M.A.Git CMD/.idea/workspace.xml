@@ -8,17 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f2233fc-e917-4e0d-ad9a-3ecd70be5926" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/NodeInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/NodeInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/RepositoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/RepositoryManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/XMLFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/XMLFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/utilz.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Utilz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/src/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Engine_jar/Engine.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Engine_jar/Engine.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/UI_jar/UI.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UI_jar/UI.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engine/RepositoryManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engine/RepositoryManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engine/XMLFetcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engine/XMLFetcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M.A.Git GUI JavaFX/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M.A.Git GUI JavaFX/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1OXtJyn7g7ra3ClJxUkiTbxNTZm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -139,6 +131,7 @@
       <workItem from="1565345465987" duration="11825000" />
       <workItem from="1565632361614" duration="1987000" />
       <workItem from="1565864604378" duration="1699000" />
+      <workItem from="1572017139673" duration="285000" />
     </task>
     <servers />
   </component>
