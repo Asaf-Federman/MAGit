@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: commons-collections4-4.3.jar commons-codec-1.12.jar
+
